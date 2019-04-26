@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>City of London</title>
+	<link rel="stylesheet" href="css/layout.css" media="screen"/>
+</head>
+
+<body>
+<header>
+<img src="images/banner.jpg" alt="London banner" />	
+<h1>City of London</h1>
+</header>
+
+<ul id="menu">
+    <li><a href="homeless.html">Homeless</a></li>
+    <li>
+        <a href="#">Clean & Green</a>
+        <ul>
+            <li><a href="#">participate</a></li>
+            <li><a href="#">photo gallery</a></li>
+            <li><a href="#">plot your cleanup</a></li>
+            <li><a href="#">supporter & sponsors</a></li>
+			<li><a href="#">stay connected</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Victoria Park</a>
+        <li><a href="#">contacts</a>
+</ul>
+
+<body>
+
+	<h1>Online Donation Form</h1>
+		<form>
+
+			<p>
+			<label><b>Name</b>
+			<input type="text" name="customer_name" required>
+			</label> 
+			</p>
+			
+			<p>
+			<label><b>Street</b>
+			<input type="text" name="customer_street" required>
+			</label> 
+						
+			<label><b>City</b>
+			<input type="text" name="customer_city" required>
+			</label> 
+						<label><b>Province</b>
+			<input type="text" name="province" required list="prov">
+			</label>
+
+			<datalist id="prov">
+				<option value="AB">
+				<option value="BC">
+				<option value="MB">
+				<option value="NB">
+				<option value="NF">
+				<option value="NS">
+				<option value="ON">
+				<option value="PEI">
+				<option value="QB">
+				<option value="SK">
+			</datalist>
+			
+			</p>
+						
+			<p>
+			<label><b>Phone</b>
+			<input type="tel" name="phone_number">
+			</label>
+			</p>
+
+			<p>
+			<label><b>Email</b>
+			<input type="email" name="email_address">
+			</label>
+			</p>
+
+			<p>
+			<label><b>Contribution effective date</b>
+			<input type="date" name="pickup_time" required>
+			</label>
+			</p>
+				
+			<p class="red">
+			<label><b>How much would you like to Donate</b>
+			<select id="pickup_cash" name="pickup_cash">
+			<option value="" selected="selected">Select One</option>
+			<option value="ten" >$10</option>
+			<option value="twenty" >$20</option>
+			<option value="Fifty" >$50</option>
+			<option value="Hund" >$100</option>
+			</select>
+			</label> 
+			</p>
+
+			<p>
+			<label><b>Special Instructions </b>
+			<textarea name="comments" maxlength="500"></textarea>
+			</label>
+			</p>
+
+			<p><button>Submit Form</button></p>
+
+		</form>
+	<hr>
+		
+<!--one child selector-->
+	<div class="fine">
+	<b>By Mail: Send your cheque payable to Mission Services of London
+	</b>
+	</div>
+
+	<!--second descendant selector-->
+	<div>
+	<b>Any NSF cheques will be charged $15!!</b>
+	</div>
+	
+<!--second child selector-->
+	
+	<div class="address">
+	<h2>Address:</h2>
+	<p>123 York Street, London ON N5V 1X1</p>
+	</div>
+
+<!--the sibling selector-->
+
+	<div class="gifts">
+	<h2>Gifts of Kind</h2>
+	<p>Clothing</p>
+	<p>Toiletry items</p>
+	<p>Blankets and sleeping bags</p>
+	</div>
+
+<!--the adjacent sibling selector-->
+
+	<div class="details">	
+		<h2> Pledge detail options: </h2>
+		<p>Donate in your name</p>
+		<p>Donate in your spouse's name</p>
+		<p>Donate in your child's name</p>
+		<p>Donate in your company's name</p>
+		<p>Other</p>
+	</div>
+		
+	<footer>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="donation.html">Donate</a></li>
+<li><a href="volunteer.html">Volunteer</a></li>
+<li><a  href="contact.html">Contact</a></li>
+</ul>
+
+</footer>		
+	</body>
+
+
+</html>
+</html>
